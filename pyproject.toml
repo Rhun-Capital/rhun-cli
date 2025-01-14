@@ -1,0 +1,21 @@
+[project]
+name = "refiner-cli"
+version = "0.0.2"
+authors = [
+  { name="Alex Daro", email="gmx2267@gmail.com" },
+]
+description = "Refiner CLI allows you to store text as vectors in Pinecone and then search for similar text. It uses OpenAI to generate embeddings and then uses Pinecone to store and search for similar text."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AI-Refiner/refiner-cli"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
